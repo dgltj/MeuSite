@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Portiforio de Daniel Garcia</title>
+    <style>
+        @font-face {
+            font-family: pixação;
+            src: url(fonts/THE_JACATRA.otf)format(opentype);
+            color: white;
+        }
+
+        a {
+            color: #ff0505;
+            text-decoration: none;
+        }
+
+        * {
+            max-width: 1000px;
+            min-width: 300px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10px;
+           
+            
+        }
+
+        body {
+            background-image: linear-gradient(to bottom, #000000,#00030a);
+                  
+          
+        }
+        body:hover{
+            box-shadow:0px 0px 20px 7px #ff0505;
+        }
+
+        h1 {
+            font-family: 'pixação', cursive;
+            background: linear-gradient(to left, red, yellow);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            text-align: center;
+        }
+
+        p {
+            background: linear-gradient(to right, rgb(239, 103, 6), red);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: justify center;
+            color: white;
+            text-indent: 30px;
+            line-height: 2em;
+        }
+
+        .container {
+            display: inline-block;
+            margin: auto;
+        }
+        nav{
+            background-color: rgb(17, 233, 53);
+            height:max-content;
+            width: max-content;    
+            text-align: center;   
+            margin: auto;
+            box-shadow: 0px 0px 25px #f9e401;
+            border-radius: 10px;
+        }
+
+
+
+        button {
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+            border: 1px solid black;
+            text-align: center;
+            color: #ff0505;
+            background-color: chartreuse;
+            margin-bottom: 10px;
+            box-shadow: 0px 0px 15px 4px red;
+            border-radius: 10px;
+           
+
+        }
+
+        button:hover {
+            background-color:red;
+            box-shadow: none;
+            color: #000000;
+           
+        }
+        button:visited{
+            background-color: darkgreen;
+        }
+
+        .image {
+            display: block;
+            margin: auto;
+            width:fit-content;
+            height: fit-content;
+       
+
+        }
+        #eu {
+            display: block;
+            margin: auto;
+        }
+        nav>a:hover{
+            color: magenta;
+            box-shadow: 0px 0px 30px 4px #f9e401;
+        }
+        .butãos button{
+            margin: 20px;
+        }
+      
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="principal" style="font-size: 3em;">Daniel Garcia</h1>
+        <P><i><strong>Desenvolvedor Front-end</strong></i></P>  
+
+        
+
+        <nav>
+            
+                <a href="#historia">Sobre mim</a>
+                
+                <a href="#tecnolo">Tecnologias</a>
+                
+                <a href="#proje">Projetos</a>
+                
+                <a href="#contatos">Contato</a>
+            
+        </nav>  
+    </header>
+
+    <h1 id="inicio">Bem vindo(a) ao meu portfolio!</h1>
+    <img src="" alt="">
+
+    <h1 id="historia">Sobre mim</h1>
+
+    <p> <strong>H1 Programador Javascript H1</strong>
+        Desde os meus 13 anos tenho computador. Sempre gostei de estudar sobre computação, lembro que logo na infância
+        eu estudava no Windows na aba 'ajuda' para aprender mais e explorava todas as opções que encontrava. Depois com
+        o passar dos anos, comecei a me interessar em concertar o computador na parte de TI. Abria a cpu a procura do
+        problema e solucionava. E hoje estudo programação, tento resolver bugs. Estou me aprimorando em <strong>
+            javascript ,
+            CSS, HTML
+        </strong>. Também estudo para fazer automação web a fim de otimizar o tempo.
+        Estou a disposição para fazer testes trabalhando até mesmo sem remuneração para ganhar experiência. Sei como é
+        dificil ter a primeira oportunidade para entrar na área de programação, mas não vou desistir. </P>
+        <picture><img id="eu" src="daniel.jpg" alt="">
+        </picture>
+    <h1 id="tecnolo">Tecnologias</h1>
+    <div class="container">
+        <div class="image">
+            <img src="js.png" alt="imagem do javascript">
+        </div>
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus culpa ea, quidem numquam architecto
+                optio labore. Quasi quas ipsa mollitia, voluptates illum iste similique, nisi sed fugiat dolorem
+                eligendi est!</p>
+        </div>
+        <div class="image">
+            <img src="css.png" alt="imagem do css">
+        </div>
+        <div class="text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam dolor est voluptas aspernatur nulla
+                reprehenderit numquam id in vero dicta perferendis, impedit distinctio, molestias rerum sit repellendus
+                cum inventore commodi?</p>
+        </div>
+        <div class="image">
+            <img src="html.png" alt="imagem da logo da html">
+        </div>
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deleniti ab, quam iusto aspernatur dolorem
+                quo eius non sapiente inventore adipisci. Minima animi temporibus iste reprehenderit? Culpa eveniet sed
+                earum.</p>
+        </div>
+    </div>
+    <h1 id="proje">Projetos</h1>
+    <div>
+        <div><video src=""></video></div>
+        <div><video src=""></video></div>
+        <div><video src=""></video></div>
+    </div>
+    <h1 id="contatos">Entre em Contato comigo</h1>
+    <div class="butãos">
+        <button class="tel">telefone</button>
+        <button class="tel"> facebook</button>
+        
+    </div>
+    <footer style="color:#000000; text-align: center
+    ; background-color: darkgray;">Desenvolvido por <strong>Daniel Garcia</strong></footer>
+   
+
+    <script>
+    </script>
+</body>
+
+</html>
